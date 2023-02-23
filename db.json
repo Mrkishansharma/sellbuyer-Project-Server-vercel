@@ -1,9 +1,961 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "users":[
+        {
+            "id":1,
+            "email":"kishansharma@gmail.com",
+            "password":"1234.com",
+            "name":"kishan sharma",
+            "phoneNumber":"6377302984",
+            "address":{
+                "fullAddress":"G49-newBapu nagar bhilwara",
+                "pinCode":"311001"
+            },
+            "ownProducts":[],
+            "orderProducts":[],
+            "cartProducts":[]
+        }
+    ],
+    "products":[
+        {
+            
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TCL 100 cm (40 inches) Full HD Certified Android Smart LED TV 40S6505 (Black)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":85000,
+        "image":"https://teja8.kuikr.com/i4/20230220/8-months-old-LED-Tv--in-good-condition-for-sale-VB201705171774173-ak_LWBP346053738-1676874706.jpeg",
+        "description":"Smart TV Features: AI-IN | Built-in WiFi | Android R (Certified by Google) | Built-in Chromecast | 64 bit Quad Core Processor | Prime video | Youtube | Netflix | Voice Search | 1 GB RAM + 8 GB ROM",
+        "brand":"TCL",
+        "id":1
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"iFFALCON 80 cm (32 inches) HD Ready Smart LED TV 32F53 (Black)",
+        "category":"TV",
+        "condition":"Almost like New",
+        "price":15000,
+        "image":"https://m.media-amazon.com/images/I/51WZ+kWDDfL._SX466_.jpg",
+        "description":"Smart TV Features : Android R 11 |1 GB RAM | 8 GB ROM | Packed with amazing smart features such as Google Voice Search, Google App Store and Built-in Chromecast. Google Play Store, YouTube, Google cast, Netflix",
+        "brand":"IFFALCON",
+        "id":2
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"REALMERCURY 32 inch Smart Tv Android 11 Full HD 32 inch tv 1920 * 1080 Crystal View A+IPS Technology FHD Android Smart TV Now Available in India an ISO29001 2020 Certified Launching Offe",
+        "category":"TV",
+        "condition":"Heavily used",
+        "price":75000,
+        "image":"https://m.media-amazon.com/images/I/71RAcBw67sL._SX466_.jpg",
+        "description":"Simply tap to connect Tap View Mirroring movies or music from your mobile to TV is as simple as a tap.When you tap your TV with your mobile, the TV senses the tap and mirrors automatically.",
+        "brand":"MI tv",
+        "id":3
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Karbonn 80 cm (32 Inches) Millennium Series HD Ready LED TV KJW32NSHDF (Phantom Black) with Bezel-Less Design",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":35000,
+        "image":"https://s3.ap-south-1.amazonaws.com/www.cimg.in/images/2021/01/28/22/176990553_16117951501_large.jpg",
+        "description":"1 LED TV, 2 Table Stand Base, 1 Wall Mounting Set, 4 Screws, 1 User Manual, 1 Warranty Card, 1 Remote Control, 2 AAA Battery",
+        "brand":"karbonn",
+        "id":4
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Power Guard 60 cm (24 inches) HD Ready Smart LED TV PG24S (Black)",
+        "category":"TV",
+        "condition":"Gently Used",
+        "price":70000,
+        "image":"https://teja8.kuikr.com/i4/20230220/8-months-old-LED-Tv--in-good-condition-for-sale-VB201705171774173-ak_LWBP346053738-1676874706.jpeg",
+        "description":"Smart TV Features : Android TV Cloud OS experience built-in brings together your favorite streaming content on the home screen. Choose from a vast catalog of movies and TV shows from Prime Video, Hotstar, Netflix, Zee5, Sony LIV and more",
+        "brand":"Power Guard",
+        "id":5
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"LG 139 cm (55 inches) 4K Ultra HD Smart OLED TV 55G1PTZ (Dark Steel Silver) (OLED55G1PTZ)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":150000,
+        "image":"https://m.media-amazon.com/images/I/51WZ+kWDDfL._SX466_.jpg",
+        "description":"Smart TV Features: AI ThinQ | Built-in Google Assistant & Alexa | Apple Airplay 2 & Homekit | WebOS |Game Optimizer | Processor: α9 Gen4 AI Processor 4K | Unlimited OTT App Support: Netflix, Prime Video, Disney+ Hotstar, Apple TV, SonyLIV, Discovery+, Zee5, Voot, YuppTV, Youtube, Shemaroo",
+        "brand":"LG",
+        "id":6
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Hisense 108 cm (43 inches) 4K Ultra HD Smart Certified Android LED TV 43A6GE (Black)",
+        "category":"TV",
+        "condition":"Almost like New",
+        "price":40000,
+        "image":"https://m.media-amazon.com/images/I/61ZpSWGd-HL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features: Official Android TV 9.0 PIE | Built-in Assistant | RAM: 2GB | ROM 16 GB | Quad Core | Search| Netflix | Prime Video | Disney+ Hotstar etc on Official Play Stor",
+        "brand":"Hisense",
+        "id":7
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Power Guard 80 cm (32 inches) Frameless HD Ready LED TV PG32N (Black)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":75000,
+        "image":"https://m.media-amazon.com/images/I/81eo9NYVifL._AC_UY327_QL65_.jpg",
+        "description":"Simple modern table, reasonable in size, classic looking is suit for any room decoration",
+        "brand":"Power Guard",
+        "id":8
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"imee - Signature Series 4K UHD Smart Frameless LED TV with Dolby Vision & Voice Command (43 Inch in Size) (Black)",
+        "category":"TV",
+        "condition":"Gently Used",
+        "price":20000,
+        "image":"https://m.media-amazon.com/images/I/71qI8HE4UmL._AC_UY327_QL65_.jpg",
+        "description":"High Quality Material & Stability; Multi-Function Open Shelf; Easy to Self-Assemble",
+        "brand":"imee",
+        "id":9
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Toshiba 108 cm (43 inches) V Series Full HD Smart Android LED TV 43V35KP (Silver)",
+        "category":"TV",
+        "condition":"Heavily used",
+        "price":15000,
+        "image":"https://m.media-amazon.com/images/I/71sKESw-klL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Certified Android TV 11 | Chromecast built-in | Miracast | Supported Apps: Prime Video | Netflix | Disney + Hotstar | YouTube | Apple TV | 5000+ apps from Play Store| Quad core processor | Dual band Wi-Fi | 1GB RAM + 8GB Storage",
+        "brand":"Toshiba",
+        "id":10
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Vu 80 cm (32 inches) Premium Series HD Ready Smart LED TV 32UA (Black)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":11000,
+        "image":"https://m.media-amazon.com/images/I/61cefoSfepS._SX355_.jpg",
+        "description":"Smart TV Features : Netflix | Prime Video | YouTube | YouTube Music | Wake up on LAN, WiFi | Wireless IEEE 802.11: b, g, n, 2.4GHz | Screen Mirrioring",
+        "brand":"Vu TV",
+        "id":11
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Sansui 140 cm (55 inches) 4K Ultra HD Certified Android LED TV JSW55ASUHD (Mystique Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":20000,
+        "image":"https://m.media-amazon.com/images/I/712TmW8u1AL._AC_UY327_QL65_.jpg",
+        "description":"L Shaped Six-seater sofa with lounger made from high-quality fabric, Good ground clearance for easy cleaning below the sofa",
+        "brand":"Sansui",
+        "id":12
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"XElectron 80 cm (32 inch) HD Ready Smart Android 11 LED TV with 2GB RAM & Soundbar 32XE11 (Black) ",
+        "category":"TV",
+        "condition":"Gently Used",
+        "price":30000,
+        "image":"https://5.imimg.com/data5/DR/OC/NB/GLADMIN-44307154/second-hand-tv-250x250.jpg",
+        "description":"Relaxing 3 seater sofa made with high quality leatherette fabric",
+        "brand":"XElectron",
+        "id":13
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TOSHIBA 139 cm (55 inches) Bezelless Series 4K Ultra HD Smart LED Google TV 55C350LP (Black)",
+        "category":"TV",
+        "condition":"Heavily used",
+        "price":25000,
+        "image":"https://m.media-amazon.com/images/I/817V04mr-TL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV features: Google TV with Watchlist | Google Assistant | Chromecast, Miracast, DLNA, Airplay | Auto Low Latency Mode for VRR | Supported Apps : Netflix, Youtube, Prime Video, Hotstar, SonyLiv, Hungama, JioCinema, Zee5, Eros Now",
+        "brand":"Toshiba",
+        "id":14
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Mi 80 cm (32 inches) Horizon Edition HD Ready Android Smart LED TV 4A | L32M6-EI (Grey)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":65000,
+        "image":"https://m.media-amazon.com/images/I/613-FH97zuL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Android TV 9 | Google Assistant | Google Play | Chromecast Built-in | Mi Quick Wake Under 5 secs | PatchWall - 23+ Content Partners|Kids Mode with Parental Lock| Smart Curation",
+        "brand":"MI tv",
+        "id":14
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Samsung 108 cm (43 inches) Crystal 4K Neo Series Ultra HD Smart LED TV UA43AUE65AKXXL (Black)",
+        "category":"TV",
+        "condition":"Almost like New",
+        "price":42000,
+        "image":"https://m.media-amazon.com/images/I/71BjFDGLKrL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Prime Video, Hotstar, Netflix, Zee5 and more | Voice Assistant - Bixby & Alexa | Tap View | PC Mode | Universal Guide | Web Browser | Screen Mirroring",
+        "brand":"Samsung",
+        "id":15
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Samsung 138 cm (55 inches) Crystal 4K Series Ultra HD Smart LED TV UA55AUE60AKLXL (Black)",
+        "category":"TV",
+        "condition":"Brand New",
+        "price":38000,
+        "image":"https://m.media-amazon.com/images/I/817V04mr-TL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Prime Video, Hotstar, Netflix, Zee5 and more | Tap View | PC Mode | Universal Guide | Web Browser | Screen Mirroring",
+        "brand":"Samsung",
+        "id":16
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"VU 108 cm (43 inches) Premium Series 4K Ultra HD Smart IPS LED TV 43UT (Black)",
+        "category":"TV",
+        "condition":"Almost like New",
+        "price":45000,
+        "image":"https://m.media-amazon.com/images/I/41IiMHOOIeL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : webOS | Content Store | Magic Remote Control | ThinQ AI Voice Assistant | Alexa Built-in | Wireless Casting | Licensed Apps-Netflix, Prime Video Hotkeys on Remote",
+        "brand":"Vu TV",
+        "id":17
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"LG C2 164 cm (65 Inches) Evo Gallery Edition 4K Ultra HD Smart LED TV OLED65C2PSC (Black) (2022 Model) | With Eye Comfort Display",
+        "category":"TV",
+        "condition":"Gently Used",
+        "price":80000,
+        "image":"https://m.media-amazon.com/images/I/61GDnptfR-L._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features: WebOS | ThinQ AI | In-Built WiFi | Screen Mirroring | Supported Apps: Netflix, Prime Video, YouTube, Zee5, etc.",
+        "brand":"LG",
+        "id":18
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TCL 81 cm (32 inches) Bezel-Less S Series Full HD Smart LED Google TV 32S5400 (Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":75000,
+        "image":"https://m.media-amazon.com/images/I/71kAATRL-xL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features: Google TV |In-Built Wi-Fi | Screen Mirroring | 1.5 GB RAM | 16 GB ROM | 64-bit Quad Core Processor | In-Built Apps: Netflix, Prime Video, Disney+Hotstar",
+        "brand":"TCL",
+        "id":19
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Power Guard 80 cm (32 inches) Frameless HD Ready Smart LED TV PG32FSVC (Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":5000,
+        "image":"https://m.media-amazon.com/images/I/710SP1tdUQL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Android TV Cloud OS experience built-in brings together your favorite streaming content on the home screen. Choose from a vast catalog of movies and TV shows from Prime Video, Hotstar, Netflix, Zee5, Sony LIV and more | Smart Features :With built in voice controls, browse through and access content from a catalogue of content & Wi-Fi ",
+        "brand":"Power Guard",
+        "id":20
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Redmi 164 cm (65 inches) 4K Ultra HD Android Smart LED TV X65 | L65M6-RA (Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":8000,
+        "image":"https://m.media-amazon.com/images/I/817V04mr-TL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features : Android TV 10 | PatchWall - Kids Mode with Parental Lock | Smart Curation | Universal search | Language Universe | India's Top 10 | Okay Google | Chromecast| Suporting Apps : Netflix, Prime Video, Disney+ Hotstar",
+        "brand":"MI tv",
+        "id":21
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"iMee 102cm (40 inch) Premium Pro Series Smart Android HD LED TV with SRS Surround Sound - BEE 4 Star Rated Energy Efficient (Pearl White Colour)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":28000,
+        "image":"https://m.media-amazon.com/images/I/81GmWPpl-vL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features: Google TV |In-Built Wi-Fi | Screen Mirroring | 1.5 GB RAM | 16 GB ROM | 64-bit Quad Core Processor | In-Built Apps: Netflix, Prime Video, Disney+Hotstar",
+        "brand":"imee",
+        "id":22
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TOSHIBA 139 cm (55 inches) 4K Ultra HD Smart QLED Google TV 55M550LP (Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":37000,
+        "image":"https://m.media-amazon.com/images/I/71ZuS9L1UeL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features: Google TV |In-Built Wi-Fi | Screen Mirroring | 1.5 GB RAM | 16 GB ROM | 64-bit Quad Core Processor | In-Built Apps: Netflix, Prime Video, Disney+Hotstar",
+        "brand":"Toshiba",
+        "id":23
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TCL 108 cm (43 inches) 4K Ultra HD Certified Android Smart LED TV 43P615 (Black)",
+        "category":"TV",
+        "condition":"Unboxed",
+        "price":66000,
+        "image":"https://m.media-amazon.com/images/I/51YspPgohuL._AC_UY327_QL65_.jpg",
+        "description":"Smart TV Features :Built-In Wifi | Prime video |4K Android TV+HDR 10 |AI-Google Assistant | Certified Android P| Screen Cast+T-cast |2GB RAM - 16GB ROM |5000+ Apps YouTube, Netflix",
+        "brand":"TCL",
+        "id":24
+    },
+    {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Samsung Galaxy M33",
+        "category": "mobile",
+        "condition": "Almost Like New",
+        "price": 26000,
+        "image": "https://m.media-amazon.com/images/I/81lnKynSaqL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Designed with the planet in mind - Unbox the change you want to see in the world.",
+        "brand": "samsung",
+        "id":25
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Samsung Galaxy M04",
+        "category": "mobile",
+        "condition": "Gently Used",
+        "price": 8000,
+        "image": "https://m.media-amazon.com/images/I/814ePfNubRL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Designed with the planet in mind - Unbox the change you want to see in the world.",
+        "brand": "samsung",
+        "id":26
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Samsung Galaxy M04",
+        "category": "mobile",
+        "condition": "Heavily Used",
+        "price": 6000,
+        "image": "https://m.media-amazon.com/images/I/812YsUxpyfL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Designed with the planet in mind - Unbox the change you want to see in the world.",
+        "brand": "samsung",
+        "id":27
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Redmi 9A",
+        "category": "mobile",
+        "condition": "Heavily Used",
+        "price": 4000,
+        "image": "https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Display: 16.58 centimeters (6.53-inch) HD+ display with 720x1600 pixels and 20:9 aspect ratio",
+        "brand": "redmi",
+        "id":28
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Redmi A1",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 5999,
+        "image": "https://m.media-amazon.com/images/I/81UT07JsBqL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Display: 16.58 centimeters (6.53-inch) HD+ display with 720x1600 pixels and 20:9 aspect ratio",
+        "brand": "redmi",
+        "id":29
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Redmi 10",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 11999,
+        "image": "https://m.media-amazon.com/images/I/81OZGH4fZiL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Display: 16.58 centimeters (6.53-inch) HD+ display with 720x1600 pixels and 20:9 aspect ratio",
+        "brand": "redmi",
+        "id":30
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Redmi Note 11",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 11999,
+        "image": "https://m.media-amazon.com/images/I/71yTvU9VgdL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Display: 16.58 centimeters (6.53-inch) HD+ display with 720x1600 pixels and 20:9 aspect ratio",
+        "brand": "redmi",
+        "id":31
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "OnePlus Nord CE 2",
+        "category": "mobile",
+        "condition": "Brand New",
+        "price": 32000,
+        "image": "https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Operating System: OxygenOS based on Android 12",
+        "brand": "oneplus",
+        "id":32
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "OnePlus Nord 2T",
+        "category": "mobile",
+        "condition": "Almost Like New",
+        "price": 23000,
+        "image": "https://m.media-amazon.com/images/I/617MPEZB5mL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Operating System: OxygenOS based on Android 12",
+        "brand": "oneplus",
+        "id":33
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "OnePlus Nord 10T",
+        "category": "mobile",
+        "condition": "Almost Like New",
+        "price": 33000,
+        "image": "https://m.media-amazon.com/images/I/71XKAnxCsLL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Operating System: OxygenOS based on Android 12",
+        "brand": "oneplus",
+        "id":34
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "OnePlus Nord 10R 5G",
+        "category": "mobile",
+        "condition": "Almost Like New",
+        "price": 34000,
+        "image": "https://m.media-amazon.com/images/I/716uVx3Wr5L._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Operating System: OxygenOS based on Android 12",
+        "brand": "oneplus",
+        "id":35
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "OnePlus Nord 11 5G",
+        "category": "mobile",
+        "condition": "Gently Used",
+        "price": 45000,
+        "image": "https://m.media-amazon.com/images/I/71K84j2O8wL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Operating System: OxygenOS based on Android 12",
+        "brand": "oneplus",
+        "id":36
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Oppo A31",
+        "category": "mobile",
+        "condition": "Gently Used",
+        "price": 45000,
+        "image": "https://m.media-amazon.com/images/I/71KCwNV6MuL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Memory, Storage & SIM: 6GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)",
+        "brand": "oppo",
+        "id":37
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Oppo A31",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 9000,
+        "image": "https://m.media-amazon.com/images/I/71geVdy6-OS._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Memory, Storage & SIM: 6GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)",
+        "brand": "oppo",
+        "id":38
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Oppo F21 Pro",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 9000,
+        "image": "https://m.media-amazon.com/images/I/81jqANvJrHL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Memory, Storage & SIM: 6GB RAM | 128GB internal memory expandable up to 256GB | Dual SIM (nano+nano) dual-standby (4G+4G)",
+        "brand": "oppo",
+        "id":39
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Apple iPhone 14 Pro",
+        "category": "mobile",
+        "condition": "Unboxed",
+        "price": 132000,
+        "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Dynamic Island, a magical new way to interact with iPhon ,Cinematic mode now in 4K Dolby Vision up to 30 fps",
+        "brand": "apple",
+        "id":40
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Apple iPhone 14 Pro",
+        "category": "mobile",
+        "condition": "Gently Used",
+        "price": 56000,
+        "image": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Dynamic Island, a magical new way to interact with iPhon ,Cinematic mode now in 4K Dolby Vision up to 30 fps",
+        "brand": "apple",
+        "id":41
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Apple iPhone 13 mini",
+        "category": "mobile",
+        "condition": "Heavily Used",
+        "price": 16000,
+        "image": "https://m.media-amazon.com/images/I/61F7Xcyux0L._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Dynamic Island, a magical new way to interact with iPhon ,Cinematic mode now in 4K Dolby Vision up to 30 fps",
+        "brand": "apple",
+        "id":42
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "iphone 14 pro",
+        "category": "mobile",
+        "condition": "Brand New",
+        "price": 75000,
+        "image": "https://m.media-amazon.com/images/I/314Rp+8XKWL._SX342_SY445_.jpg",
+        "description": "Cinematic mode adds shallow depth of field and shifts focus automatically in your ",
+        "brand": "apple",
+        "id":43
+      },
+      {
+        "sellerId": 0,
+        "buyyerId": [],
+        "title": "Samsung Galaxy S23",
+        "category": "mobile",
+        "condition": "Brand New",
+        "price": 25000,
+        "image": "https://m.media-amazon.com/images/I/61bM8Mojf6L._AC_UY327_FMwebp_QL65_.jpg",
+        "description": "Designed with the planet in mind - Unbox the change you want to see in the world. ",
+        "brand": "samsung",
+        "id":44
+      },
+      {
+            
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Centre Quadro Edge Queen-Size Bed with Box Storage",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":25000,
+        "image":"https://m.media-amazon.com/images/I/41tCT+QZpIL.jpg",
+        "description":"Wood : (Indian Rosewood) Suitable Mattress Size : Mattress Length (198.12 cm), Width (182.88 cm),This mattress size is recommended for the Bed Warranty : 3 Years Manufacturer Warranty; Product Dimensions : Bed Length (198.12 cm), Width (182.88 cm)",
+        "brand":"Home Centre",
+        "id":45
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Solimo Canes Engineered Wood Queen Bed with Box Storage (Walnut finish)",
+        "category":"Furniture",
+        "condition":"Almost like New",
+        "price":15000,
+        "image":"https://wakefitdev.gumlet.io/img/engineered-wood-bed/petra-queen/storage/1.jpg?w=732",
+        "description":"Wood : Sheesham Wood, Suitable Mattress Size : Mattress Length (198.12 cm), Width (182.88 cm), Product Dimensions : Bed Length (198.12 cm), Width (182.88 cm)",
+        "brand":"Solimo",
+        "id":46
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Doctor Dreams by Nilkamal Striker Queen Size Bed",
+        "category":"Furniture",
+        "condition":"Heavily used",
+        "price":12000,
+        "image":"https://m.media-amazon.com/images/I/61SdxGQt85L._SL1144_.jpg",
+        "description":"Wood : Teak Wood, Suitable Mattress Size : Mattress Length (198.12 cm), Width (182.88 cm), Product Dimensions : Bed Length (198.12 cm), Width (182.88 cm)",
+        "brand":"Doctor Dreams",
+        "id":47
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"DEVKI INTERIORS Crafter King Size Bed - A Solid Wooden Bed with Storage",
+        "category":"Furniture",
+        "condition":"Unboxed",
+        "price":35000,
+        "image":"https://m.media-amazon.com/images/I/81SRD3ZZdxL._SY355_.jpg",
+        "description":"Wood : Oak Wood, Warranty : 3 years Suitable Mattress Size : Mattress Length (198.12 cm), Width (182.88 cm), Product Dimensions : Bed Length (198.12 cm), Width (182.88 cm)",
+        "brand":"Devki Interiors",
+        "id":48
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Wakeup Sheesham Solid Wood King Size Bed with Storage",
+        "category":"Furniture",
+        "condition":"Gently Used",
+        "price":30000,
+        "image":"https://m.media-amazon.com/images/I/91eLbbe5n1L._SY355_.jpg",
+        "description":"Wood : Mahogany Wood, Suitable Mattress Size : Mattress Length (198.12 cm), Width (182.88 cm), Product Dimensions : Bed Length (198.12 cm), Width (182.88 cm)",
+        "brand":"Wakeup Sheesham",
+        "id":49
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Solimo Areca Engineered Wood Coffee Table",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":6000,
+        "image":"https://m.media-amazon.com/images/I/81RgKu1V2RL._SY355_.jpg",
+        "description":"Premium-quality sturdy and stable engineered wood coffee table for home decor,  loading capacity of 86 kg",
+        "brand":"Solimo",
+        "id":50
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Solimo Venus Engineered Wood Contemporary Walnut Finish Coffee Table (Brown)",
+        "category":"Furniture",
+        "condition":"Almost like New",
+        "price":3000,
+        "image":"https://m.media-amazon.com/images/I/81sFOYvOqwL._SY355_.jpg",
+        "description":"Sturdy structure made of premium quality engineered wood, European standard",
+        "brand":"Solimo",
+        "id":51
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Nilkamal Luna Tempered Glass Center Table | Coffee Table with Shelf (Color - Wenge)",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":7500,
+        "image":"https://m.media-amazon.com/images/I/71QPWTG8wIL._SY355_.jpg",
+        "description":"Simple modern table, reasonable in size, classic looking is suit for any room decoration",
+        "brand":"Nilkamal",
+        "id":52
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"TEKAVO Computer Table for Home",
+        "category":"Furniture",
+        "condition":"Gently Used",
+        "price":7000,
+        "image":"https://m.media-amazon.com/images/I/51PbwEgyMzL._SX355_.jpg",
+        "description":"High Quality Material & Stability; Multi-Function Open Shelf; Easy to Self-Assemble",
+        "brand":"Tekavo",
+        "id":53
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Furinno Sheesham Wood Writing Study Table for Home and Office with Chair Study Desk (Natural Brown Finish)",
+        "category":"Furniture",
+        "condition":"Heavily used",
+        "price":8500,
+        "image":"https://m.media-amazon.com/images/I/916-zIfJ4HL._SX355_.jpg",
+        "description":"space saving, smart and elegant, product requires basic self assembly at customers end",
+        "brand":"Furinno",
+        "id":54
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Furniture Wooden Sofa Set for Living Room and Office (5 Seater (3+1+1)",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":25000,
+        "image":"https://m.media-amazon.com/images/I/61cefoSfepS._SX355_.jpg",
+        "description":"Natural Teak Finish (Feltro Design), Structured With Heavy-Duty Material For Extended Durability",
+        "brand":"Home Furniture",
+        "id":55
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Solimo Alen 6 Seater Fabric LHS L Shape Sofa Set",
+        "category":"Furniture",
+        "condition":"Unboxed",
+        "price":20000,
+        "image":"https://m.media-amazon.com/images/I/81KpHRP7PEL._SY355_.jpg",
+        "description":"L Shaped Six-seater sofa with lounger made from high-quality fabric, Good ground clearance for easy cleaning below the sofa",
+        "brand":"Solimo",
+        "id":56
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Solimo Tulip Leatherette 3 Seater Sofa",
+        "category":"Furniture",
+        "condition":"Gently Used",
+        "price":15000,
+        "image":"https://m.media-amazon.com/images/I/81Fdsh6B2vL._SY355_.jpg",
+        "description":"Relaxing 3 seater sofa made with high quality leatherette fabric",
+        "brand":"Solimo",
+        "id":57
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Furniture Wooden Sofa Set for Living Room and Office Six Seater",
+        "category":"Furniture",
+        "condition":"Heavily used",
+        "price":45000,
+        "image":"https://m.media-amazon.com/images/I/514x-j3LJvL._SX355_.jpg",
+        "description":"Structured with heavy-duty material for extended durability",
+        "brand":"Home Furniture",
+        "id":58
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"HITECH FURNITURES Solid Sheesham Wood Eight Seater Sofa Se",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":65000,
+        "image":"https://m.media-amazon.com/images/I/61niASxHptL._SY355_.jpg",
+        "description":"Relaxed And Comfortable Experience: The Sleek Modern Sofa Is Suitable For Office, Bedroom, Living Room",
+        "brand":"HITECH FURNITURES",
+        "id":59
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Centre Leatherette Albury 3+2 Sofa Set",
+        "category":"Furniture",
+        "condition":"Almost like New",
+        "price":32000,
+        "image":"https://m.media-amazon.com/images/I/716SDKF3UhL._SX355_.jpg",
+        "description":"Primary Material: Meranti Wood, Upholstery Material: Leatherette",
+        "brand":"Home Centre",
+        "id":60
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Porash Furniture™ Sheesham Wood Wooden Dining Set 4 Seater",
+        "category":"Furniture",
+        "condition":"Brand New",
+        "price":18000,
+        "image":"https://m.media-amazon.com/images/I/71DvmF5+xRL._SY450_.jpg",
+        "description":"Wood Material : Indian Sheesham Wood - Chair - Pre-Assemble , Table - Required Assembly",
+        "brand":"Porash Furniture",
+        "id":61
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Mamta Decoration Sheesham Wood 8 Seater Dining Table Set",
+        "category":"Furniture",
+        "condition":"Almost like New",
+        "price":35000,
+        "image":"https://m.media-amazon.com/images/I/71YWtiTAo0L._SY450_.jpg",
+        "description":"Durable sheesham wood construction beautiful chestnut finish, Perfect for adding a bit of warmth into your living space, Perfect for family dinners",
+        "brand":"Mamta Decoration",
+        "id":62
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Centre Parlin Glass Top 6-Seater Dining Table",
+        "category":"Furniture",
+        "condition":"Gently Used",
+        "price":40000,
+        "image":"https://m.media-amazon.com/images/I/71yCyKioz6L._SY355_.jpg",
+        "description":"Primary Material : Compressed Wood, The product requires carpenter assembly",
+        "brand":"Home Centre",
+        "id":63
+    },
+
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Home Centre Monarch Glass Top 6-Seater Dining Table",
+        "category":"Furniture",
+        "condition":"Unboxed",
+        "price":75000,
+        "image":"https://m.media-amazon.com/images/I/61yPI0XHPSL._SY355_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"Home Centre",
+        "id":64
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"HDell Vostro 3420 Laptop,12th Gen Intel Core i3-1215U, 8GB & 512GB SSD, 14.0",
+        "category":"laptop",
+        "condition":"Unboxed",
+        "price":45000,
+        "image":"https://m.media-amazon.com/images/I/51bqpP0jb5L._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"Dell",
+        "id":65
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Lenovo IdeaPad 3 11th Gen Intel Core i3",
+        "category":"laptop",
+        "condition":"Gently Used",
+        "price":25000,
+        "image":"https://m.media-amazon.com/images/I/61Dw5Z8LzJL._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"Lenova",
+        "id":66
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"HP 15-Ryzen 11th Gen Intel Core i7",
+        "category":"laptop",
+        "condition":"Unboxed",
+        "price":25000,
+        "image":"https://m.media-amazon.com/images/I/81bu95bhbOL._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"HP",
+        "id":67
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Apple 2020 MacBook Air Laptop M1 chip",
+        "category":"laptop",
+        "condition":"Unboxed",
+        "price":125000,
+        "image":"https://m.media-amazon.com/images/I/71TPda7cwUL._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"mac",
+        "id":68
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm",
+        "category":"laptop",
+        "condition":"Unboxed",
+        "price":225000,
+        "image":"https://m.media-amazon.com/images/I/710TJuHTMhL._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Crafted from engineered wood, Thermally processed extra clear glass this dining table set is complemented with a compact 6-seater design",
+        "brand":"mac",
+        "id":69
+    },
+    {
+        
+        "sellerId":0,
+        "buyyerId":[],
+        "title":"Lenovo Legion 5 Pro AMD Ryzen 7 6800H 16",
+        "category":"laptop",
+        "condition":"Unboxed",
+        "price":225000,
+        "image":"https://m.media-amazon.com/images/I/71UQsd1U59L._AC_UY327_FMwebp_QL65_.jpg",
+        "description":"Lenovo Legion 5 Pro AMD Ryzen 7 6800H 16 (40.64cm) 500nits WQXGA Gaming Laptop",
+        "brand":"Lenova",
+        "id":70
+    }
+    ]
 }
